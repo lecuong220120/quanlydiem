@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping
+@CrossOrigin("*")
 public class MonHocController {
     @Autowired
     MonHocService monHocService;
